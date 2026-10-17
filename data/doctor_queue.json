@@ -1,0 +1,28 @@
+[
+  {
+    "id": "esc_001",
+    "created_at": "2026-10-17T17:53:52.773997+00:00",
+    "patient_question": "What dose of metformin am I on?",
+    "ai_draft_reply": "\u26a0 Conflicting information found for Metformin across your documents. I am not answering directly \u2014 this is being sent to a clinician for review.\n\nDetail: Metformin dose differs: 500 mg in doc1_discharge_2024_10_01 vs 1000 mg in doc2_consult_2024_10_05 vs 1000 mg in doc3_discharge_2024_10_10",
+    "confidence": 0.45,
+    "reason": "Conflicting records on Metformin; human review required.",
+    "citations": [
+      {
+        "document_id": "doc1_discharge_2024_10_01",
+        "line_number": 5,
+        "verbatim_quote": "1. Metformin 500 mg twice daily after meals"
+      },
+      {
+        "document_id": "doc2_consult_2024_10_05",
+        "line_number": 5,
+        "verbatim_quote": "Metformin 1 g twice daily"
+      },
+      {
+        "document_id": "doc3_discharge_2024_10_10",
+        "line_number": 6,
+        "verbatim_quote": "2. Metformin 1000 mg twice daily"
+      }
+    ],
+    "status": "pending_review"
+  }
+]

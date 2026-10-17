@@ -1,0 +1,101 @@
+[
+  {
+    "document_id": "doc1_discharge_2024_10_01",
+    "document_type": "Discharge Summary",
+    "visit_date": "2024-10-01",
+    "medications": [
+      {
+        "name": "Metformin",
+        "dose": "500 mg",
+        "frequency": "twice daily",
+        "source_line": 5
+      },
+      {
+        "name": "Ibuprofen",
+        "dose": "400 mg",
+        "frequency": "as needed",
+        "source_line": 6
+      }
+    ],
+    "allergies": [],
+    "instructions": [
+      "Follow-up in 2 weeks."
+    ],
+    "unclear_lines": [],
+    "raw_lines": [
+      "DISCHARGE SUMMARY \u2014 visit 2024-10-01",
+      "SYNTHETIC PATIENT A \u2014 not a real person",
+      "Diagnosis: Type 2 diabetes mellitus",
+      "Medications:",
+      "1. Metformin 500 mg twice daily after meals",
+      "2. Ibuprofen 400 mg as needed for pain",
+      "Follow-up in 2 weeks."
+    ]
+  },
+  {
+    "document_id": "doc2_consult_2024_10_05",
+    "document_type": "Consultation Note",
+    "visit_date": "2024-10-05",
+    "medications": [
+      {
+        "name": "Metformin",
+        "dose": "1 g",
+        "frequency": "twice daily",
+        "source_line": 5
+      }
+    ],
+    "allergies": [
+      {
+        "substance": "Penicillin",
+        "reaction": "rash",
+        "source_line": 3
+      }
+    ],
+    "instructions": [],
+    "unclear_lines": [],
+    "raw_lines": [
+      "CONSULTATION NOTE \u2014 2024-10-05",
+      "SYNTHETIC PATIENT A \u2014 not a real person",
+      "Allergies: Penicillin \u2014 rash",
+      "Current medications:",
+      "Metformin 1 g twice daily",
+      "Patient reports good adherence."
+    ]
+  },
+  {
+    "document_id": "doc3_discharge_2024_10_10",
+    "document_type": "Discharge Summary",
+    "visit_date": "2024-10-10",
+    "medications": [
+      {
+        "name": "Warfarin",
+        "dose": "5 mg",
+        "frequency": "once daily",
+        "source_line": 5
+      },
+      {
+        "name": "Metformin",
+        "dose": "1000 mg",
+        "frequency": "twice daily",
+        "source_line": 6
+      }
+    ],
+    "allergies": [],
+    "instructions": [
+      "INR monitoring weekly."
+    ],
+    "unclear_lines": [
+      7
+    ],
+    "raw_lines": [
+      "DISCHARGE SUMMARY \u2014 visit 2024-10-10",
+      "SYNTHETIC PATIENT A \u2014 not a real person",
+      "Diagnosis: Atrial fibrillation, Type 2 diabetes",
+      "Medications:",
+      "1. Warfarin 5 mg once daily",
+      "2. Metformin 1000 mg twice daily",
+      "3. Continue [illegible] 5 mg daily",
+      "INR monitoring weekly."
+    ]
+  }
+]

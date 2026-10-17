@@ -1,0 +1,42 @@
+[
+  {
+    "kind": "dose_mismatch",
+    "severity": "HIGH",
+    "description": "Metformin dose differs: 500 mg in doc1_discharge_2024_10_01 vs 1000 mg in doc2_consult_2024_10_05 vs 1000 mg in doc3_discharge_2024_10_10",
+    "source_doc_a": "doc1_discharge_2024_10_01",
+    "source_doc_b": "doc2_consult_2024_10_05",
+    "source_lines": [
+      5,
+      5,
+      6
+    ]
+  },
+  {
+    "kind": "buried_allergy",
+    "severity": "HIGH",
+    "description": "Allergy to Penicillin appears in doc2_consult_2024_10_05 but is missing from doc1_discharge_2024_10_01, doc3_discharge_2024_10_10",
+    "source_doc_a": "doc2_consult_2024_10_05",
+    "source_doc_b": "doc1_discharge_2024_10_01",
+    "source_lines": [
+      3
+    ]
+  },
+  {
+    "kind": "drug_interaction",
+    "severity": "HIGH",
+    "description": "Bleeding risk: anticoagulant + NSAID: warfarin + ibuprofen",
+    "source_doc_a": null,
+    "source_doc_b": null,
+    "source_lines": []
+  },
+  {
+    "kind": "unclear_line",
+    "severity": "MEDIUM",
+    "description": "Unclear instruction in doc3_discharge_2024_10_10: \"3. Continue [illegible] 5 mg daily\"",
+    "source_doc_a": "doc3_discharge_2024_10_10",
+    "source_doc_b": null,
+    "source_lines": [
+      7
+    ]
+  }
+]
