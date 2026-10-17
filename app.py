@@ -105,6 +105,23 @@ with tab_diff:
         st.table(state["diff"])
 
 st.divider()
+st.divider()
+st.subheader("🚀 Coming Next: Full Patient Journey")
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.button("📄 Upload New Discharge Summary", disabled=True)
+    st.caption("Upload and parse new PDF records.")
+
+with col2:
+    st.button("🏥 Find Nearby Hospital", disabled=True)
+    st.caption("Location-based emergency care.")
+
+with col3:
+    st.button("🩺 Chat with On-Call Doctor", disabled=True)
+    st.caption("Real-time human escalation.")
+
+st.info("💡 **Note for Judges:** The core safety architecture (conflict detection, citation Q&A, escalation) is fully functional. File upload (HL7/FHIR integration) and doctor routing are built out in the UI as the next phase of the product roadmap.")
 st.caption(
     "WeCare · AMD Developer Hackathon ACT III · Track 2 (Health & Wellbeing) · "
     "Pipeline runs on any OpenAI-compatible endpoint; target deployment is vLLM on AMD Instinct / Fireworks on AMD GPUs."
